@@ -1,0 +1,53 @@
+PODS:
+  - Ads-Global (5.5.0.7):
+    - Ads-Global/BUAdSDK (= 5.5.0.7)
+  - Ads-Global/BUAdSDK (5.5.0.7):
+    - Ads-Global/BURelyAdSDK
+    - Ads-Global/Dep_Accurate
+  - Ads-Global/BURelyAdSDK (5.5.0.7)
+  - Ads-Global/Dep_Accurate (5.5.0.7):
+    - BURelyFoundation_Global/Pangle (= 0.1.2.7)
+  - BURelyFoundation_Global/AFNetworking (0.1.2.7)
+  - BURelyFoundation_Global/APM (0.1.2.7)
+  - BURelyFoundation_Global/Foundation (0.1.2.7):
+    - BURelyFoundation_Global/NETWork
+  - BURelyFoundation_Global/Gecko (0.1.2.7):
+    - BURelyFoundation_Global/Foundation
+  - BURelyFoundation_Global/Header (0.1.2.7)
+  - BURelyFoundation_Global/NETWork (0.1.2.7):
+    - BURelyFoundation_Global/AFNetworking
+  - BURelyFoundation_Global/Pangle (0.1.2.7):
+    - BURelyFoundation_Global/AFNetworking
+    - BURelyFoundation_Global/APM
+    - BURelyFoundation_Global/Foundation
+    - BURelyFoundation_Global/Gecko
+    - BURelyFoundation_Global/Header
+    - BURelyFoundation_Global/NETWork
+    - BURelyFoundation_Global/SDWebImage
+    - BURelyFoundation_Global/YYModel
+    - BURelyFoundation_Global/ZFPlayer
+    - BURelyFoundation_Global/Zip
+  - BURelyFoundation_Global/SDWebImage (0.1.2.7):
+    - BURelyFoundation_Global/Foundation
+  - BURelyFoundation_Global/YYModel (0.1.2.7)
+  - BURelyFoundation_Global/ZFPlayer (0.1.2.7):
+    - BURelyFoundation_Global/Foundation
+    - BURelyFoundation_Global/Zip
+  - BURelyFoundation_Global/Zip (0.1.2.7):
+    - BURelyFoundation_Global/Foundation
+
+DEPENDENCIES:
+  - Ads-Global
+
+SPEC REPOS:
+  trunk:
+    - Ads-Global
+    - BURelyFoundation_Global
+
+SPEC CHECKSUMS:
+  Ads-Global: b829508ed1196d8624066c2c62e31e2d46c90c3a
+  BURelyFoundation_Global: 1b8107d3c136a16536783861ceab26645930e8b7
+
+PODFILE CHECKSUM: 6b48dc261f7af06a42d0e1f851c666aadbf5d524
+
+COCOAPODS: 1.13.0

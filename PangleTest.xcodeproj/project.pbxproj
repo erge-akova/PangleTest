@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		03E2E22D2ADFD45C00820BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E2E22C2ADFD45C00820BAF /* AppDelegate.swift */; };
-		03E2E22F2ADFD45C00820BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E2E22E2ADFD45C00820BAF /* SceneDelegate.swift */; };
 		03E2E2312ADFD45C00820BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E2E2302ADFD45C00820BAF /* ViewController.swift */; };
 		03E2E2342ADFD45C00820BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E2E2322ADFD45C00820BAF /* Main.storyboard */; };
 		03E2E2362ADFD45C00820BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E2E2352ADFD45C00820BAF /* Assets.xcassets */; };
 		03E2E2392ADFD45C00820BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E2E2372ADFD45C00820BAF /* LaunchScreen.storyboard */; };
+		27A097FED639298FA34DC4E5 /* Pods_PangleTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E19756C0B69DC0F76DF1F6 /* Pods_PangleTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03E2E2292ADFD45C00820BAF /* PangleTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PangleTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E2E22C2ADFD45C00820BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03E2E22E2ADFD45C00820BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		03E2E2302ADFD45C00820BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		03E2E2332ADFD45C00820BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03E2E2352ADFD45C00820BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03E2E2382ADFD45C00820BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03E2E23A2ADFD45C00820BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23AA6EFBCEC85913192A7E4B /* Pods-PangleTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PangleTest.release.xcconfig"; path = "Target Support Files/Pods-PangleTest/Pods-PangleTest.release.xcconfig"; sourceTree = "<group>"; };
+		46E19756C0B69DC0F76DF1F6 /* Pods_PangleTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PangleTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FCA42CE23BA5D8BC88963C /* Pods-PangleTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PangleTest.debug.xcconfig"; path = "Target Support Files/Pods-PangleTest/Pods-PangleTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A097FED639298FA34DC4E5 /* Pods_PangleTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,8 @@
 			children = (
 				03E2E22B2ADFD45C00820BAF /* PangleTest */,
 				03E2E22A2ADFD45C00820BAF /* Products */,
+				D969D331D1E3A3C0C305C636 /* Pods */,
+				17AB37D6D368FE7090422834 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				03E2E22C2ADFD45C00820BAF /* AppDelegate.swift */,
-				03E2E22E2ADFD45C00820BAF /* SceneDelegate.swift */,
 				03E2E2302ADFD45C00820BAF /* ViewController.swift */,
 				03E2E2322ADFD45C00820BAF /* Main.storyboard */,
 				03E2E2352ADFD45C00820BAF /* Assets.xcassets */,
@@ -67,6 +71,24 @@
 			path = PangleTest;
 			sourceTree = "<group>";
 		};
+		17AB37D6D368FE7090422834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46E19756C0B69DC0F76DF1F6 /* Pods_PangleTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D969D331D1E3A3C0C305C636 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9FCA42CE23BA5D8BC88963C /* Pods-PangleTest.debug.xcconfig */,
+				23AA6EFBCEC85913192A7E4B /* Pods-PangleTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +96,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03E2E23D2ADFD45C00820BAF /* Build configuration list for PBXNativeTarget "PangleTest" */;
 			buildPhases = (
+				401CD615C86DB08D2C33E66A /* [CP] Check Pods Manifest.lock */,
 				03E2E2252ADFD45C00820BAF /* Sources */,
 				03E2E2262ADFD45C00820BAF /* Frameworks */,
 				03E2E2272ADFD45C00820BAF /* Resources */,
+				C454A8F4764BA48A24E08D0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +157,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		401CD615C86DB08D2C33E66A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PangleTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C454A8F4764BA48A24E08D0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PangleTest/Pods-PangleTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PangleTest/Pods-PangleTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PangleTest/Pods-PangleTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03E2E2252ADFD45C00820BAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,7 +206,6 @@
 			files = (
 				03E2E2312ADFD45C00820BAF /* ViewController.swift in Sources */,
 				03E2E22D2ADFD45C00820BAF /* AppDelegate.swift in Sources */,
-				03E2E22F2ADFD45C00820BAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -275,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,12 +352,14 @@
 		};
 		03E2E23E2ADFD45C00820BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FCA42CE23BA5D8BC88963C /* Pods-PangleTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y35L2XPYZZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PangleTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +367,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +383,14 @@
 		};
 		03E2E23F2ADFD45C00820BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AA6EFBCEC85913192A7E4B /* Pods-PangleTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y35L2XPYZZ;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PangleTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +398,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
